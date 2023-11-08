@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Shopping Alegria em Várzea Paulista">
+    <meta name="keywords" content="Várzea Paulista, Shopping, Alegria">
+    <title>Shopping Alegria em Várzea Paulista</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping Alegria em Várzea Paulista</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo ao Shopping Alegria</h2>
+            <img src="shopping-alegria20.jpg" alt="Shopping Alegria">
+            <p>O Shopping Alegria é o lugar perfeito para fazer compras, se divertir e desfrutar de diversas opções de entretenimento. Com uma ampla variedade de lojas, restaurantes e atrações, é o local ideal para passar o dia com a família e os amigos.</p>
+            <a href="https://www.shoppingalegria.com.br/" target="_blank">Visite o site oficial do Shopping Alegria</a>
+        </section>
+    </main>
+
+    <section>
+        <button id="moveButton" onclick="moveElement()">Mover Elemento</button>
+        <div id="movableElement"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shopping Alegria em Várzea Paulista</p>
+    </footer>
+
+    <script>
+        function moveElement() {
+            const element = document.getElementById('movableElement');
+            element.style.transform = 'translateX(200px)';
+        }
+    </script>
+</body>
+</html>
